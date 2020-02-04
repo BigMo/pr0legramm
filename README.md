@@ -15,7 +15,7 @@ Du kannst auch direkt den Bot anschreiben, um dein Session-Cookie zu setzen (`/s
 Wenn du die nicht-öffentlichen Filter nutzen möchtest und deinen Session-Cookie nicht bei dem von mir betriebenen Bot speichern möchtest *(ich klaue mir nachts deine Cookies, shitposte damit auf dem pr0 und lasse dich bannen)*, kannst du den Bot einfach klonen, deine Anmeldedaten eintragen und ihn selbst betreiben. Eine kurze Anleitung:
 1. Installiere NodeJS (getestet mit Version `v12.13.0`)
 2. Erstelle dir einen Bot für [Telegrams Bot-API](https://core.telegram.org/bots#6-botfather) und hole dir dein Bot-Token (im Folgenden und im Code `telegramBotToken`).
-4. Klone diese Repo (`git clone https://github.com/BigMo/pr0legrammbot`) und wechlse in dessen Verzeichnis (`cd pr0legrammbot`).
+4. Klone diese Repo (`git clone https://github.com/BigMo/pr0legramm`) und wechlse in dessen Verzeichnis (`cd pr0legrammbot`).
 5. Ziehe dir die benötigten NPM-Pakete (`npm install`)
 6. Erstelle eine Konfigurations-JSON `pr0legrammbot.json` mit folgendem Inhalt: 
     ```json
