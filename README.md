@@ -17,15 +17,16 @@ Wenn du die nicht-öffentlichen Filter nutzen möchtest und deinen Session-Cooki
 2. Erstelle dir einen Bot für [Telegrams Bot-API](https://core.telegram.org/bots#6-botfather) und hole dir dein Bot-Token (im Folgenden und im Code `telegramBotToken`).
 4. Klone diese Repo (`git clone https://github.com/BigMo/pr0legramm`) und wechlse in dessen Verzeichnis (`cd pr0legrammbot`).
 5. Ziehe dir die benötigten NPM-Pakete (`npm install`) und ggf. typescript (`npm install -g typescript`)
-6. Erstelle eine Konfigurations-JSON `pr0legrammbot.json` mit folgendem Inhalt: 
+6. Kompiliere das Projekt, indem du den TypeScript Compiler ausführst (`tsc`) und wechsle in den `out`-Ordner (`cd out`)
+8. Erstelle eine Konfigurations-JSON `pr0legrammbot.json` mit folgendem Inhalt: 
     ```json
     {
         "telegramBotToken": "<dein token>",
     }
     ```
-7. Starte den Bot! (`node app.js`)
-8. (Optional) Starte einen Chat mit dem Bot in Telegram und gib dort dein Session-Cookie an (siehe unten)
-9. PROFIT!!!
+8. Starte den Bot! (`node app.js`)
+9. (Optional) Starte einen Chat mit dem Bot in Telegram und gib dort dein Session-Cookie an (siehe unten)
+10. PROFIT!!!
 
 ## Non-Public Filter benutzen: Session-Cookie angeben
 *Disclaimer: Wie du dem Source-Code entnehmen kannst, werden die Cookies im Plaintext gespeichert. Solltest du dem Bot diese Daten angeben und sollten diese abhanden kommen (¯\_(ツ)_/¯), kann dein Account möglicherweise komprommitiert werden. Schicke deinen Cookie nur an den Bot, wenn du dir sicher bist, dass du das willst!*
