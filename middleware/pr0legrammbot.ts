@@ -178,7 +178,7 @@ export class Pr0legrammBot extends events.EventEmitter {
 
 					var results = Pr0legrammBot.postsToResults(items);
 
-					if (this.verbose) console.log(`#> Turned into ${items.length} results!`);
+					if (this.verbose) console.log(`#> Turned into ${results.length} results!`);
 					if (!results.length) return answerInlineQuery([]); //Make Telegram show 'No results.'
 
 					return answerInlineQuery(results, {
