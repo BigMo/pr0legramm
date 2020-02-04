@@ -1,0 +1,19 @@
+{
+  "name": "pr0legramm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-rsa": "^1.0.0",
+    "@types/node-telegram-bot-api": "^0.40.2",
+    "node-rsa": "^1.0.7",
+    "pr0gramm-api": "^3.0.2",
+    "telegraf": "^3.36.0",
+    "telegram-typings": "^4.0.0-beta"
+  }
+}
