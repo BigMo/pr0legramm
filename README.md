@@ -16,7 +16,7 @@ Wenn du die nicht-öffentlichen Filter nutzen möchtest und deinen Session-Cooki
 1. Installiere NodeJS (getestet mit Version `v12.13.0`)
 2. Erstelle dir einen Bot für [Telegrams Bot-API](https://core.telegram.org/bots#6-botfather) und hole dir dein Bot-Token (im Folgenden und im Code `telegramBotToken`).
 4. Klone diese Repo (`git clone https://github.com/BigMo/pr0legramm`) und wechlse in dessen Verzeichnis (`cd pr0legrammbot`).
-5. Ziehe dir die benötigten NPM-Pakete (`npm install`)
+5. Ziehe dir die benötigten NPM-Pakete (`npm install`) und ggf. typescript (`npm install -g typescript`)
 6. Erstelle eine Konfigurations-JSON `pr0legrammbot.json` mit folgendem Inhalt: 
     ```json
     {
